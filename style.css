@@ -1,0 +1,123 @@
+body {
+    background-color: #F7F7F7;
+    font-family: 'Mulish', sans-serif !important;
+    font-style: normal;
+} 
+
+/* for sub images */
+.d-flex div img {
+    width: 60px;
+    height: 60px;
+}
+
+.col-md-7 h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif !important;
+    font-style: normal;
+}
+
+.col-md-7 h6{
+    font-size: 0.7rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Mulish', sans-serif !important;
+  font-style: normal;
+}
+
+.d-flex div h6{
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: black;
+  font-family: 'Mulish', sans-serif !important;
+  font-style: normal;
+ 
+}
+
+.col-md-7 p{
+    font-weight: 400;
+    color: #737B7D;
+    line-height: 1.2rem;
+}
+/*media query for mobile devices */
+
+@media (max-width: 320px) {
+    .col-md-7 {
+        padding-top: 3rem;
+    }
+    .col-md-7 h1 {
+        font-size: 0.8rem;
+    }
+    .row{
+        margin: 0;
+        padding: 1rem 0 0 !important;
+    }
+    .col-md-7 p{
+        font-size: 0.6rem;
+    }
+    .d-flex div img {
+        width: 35px;
+        height: 35px;
+    }
+    .pl-5{
+        padding-left: 1rem;
+    }
+
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .col-md-7 {
+        padding-top: 3rem;
+    }
+    .col-md-7 h1 {  
+        font-size: 1rem;
+    }
+    .d-flex div img {
+        width: 45px;
+        height: 45px;
+    }
+    .row{
+        margin: 0;
+        padding: 1.5rem 0 0 !important;
+    }
+    .col-md-7 p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .col-md-7 {
+        padding-top: 3rem;
+    }
+    .col-md-7 h1 {  
+        font-size: 1.2rem;
+    }
+    .d-flex div img {
+        width: 50px;
+        height: 50px;
+    }
+    .row{
+        margin: 0;
+        padding: 2rem 0 0 !important;
+    }
+    .col-md-7 p{
+        font-size: 1rem;
+    }
+}
+/* for tablet */
+@media (min-width: 768px) {
+    .col-md-7 h1 {  
+        font-size: 1.3rem;
+    }
+    .d-flex div img {
+        width: 60px;
+        height: 60px;
+    }
+    .row{
+        margin: 0;
+        padding: 1.5rem 0 0 !important;
+    }
+    .col-md-7 p{
+        font-size: 1rem;
+    }   
+}   
